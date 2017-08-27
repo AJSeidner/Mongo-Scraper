@@ -1,0 +1,28 @@
+
+body {
+
+  background-image: url("img/echochamber.jpg");
+  background-size: 100%;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.brand-logo{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+.jumbotron{
+	font-size:30px;
+	text-align: center;
+}
+
+.h4{
+	font-size: 50px;
+	color: white;
+	font-weight: bold;
+}
+
+}

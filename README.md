@@ -1,2 +1,2 @@
 # Mongo-Scraper
-Mongo driven application that scrapes websites for articles and allows users to save articles and leave notes about them.
+A Node/Express.js web application that scrapes echojs.com website for articles using Cheerio.  Scraped data is stored in MongoDB database using Mongoose.  Page html is formated in Handlebars.
