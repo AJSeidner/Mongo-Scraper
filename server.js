@@ -27,7 +27,10 @@ app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 //config DB w/ Mongoose
 //WE NEED TO GENERATE THE CONNECTION FOR HEROKU WITH CLI
-mongoose.connect("mongodb://localhost/mongo-scraper");
+//Created mongolab-shaped-16724 as MONGODB_URI
+//MONGODB_URI: mongodb://heroku_h81h90xs:mi590u5qb8b206h58209khcs7l@ds157873.mlab.com:57873/heroku_h81h90xs
+//for local: mongodb://localhost/mongo-scraper
+mongoose.connect("mongodb://heroku_h81h90xs:mi590u5qb8b206h58209khcs7l@ds157873.mlab.com:57873/heroku_h81h90xs");
 var db = mongoose.connection;
 
 //show errors
